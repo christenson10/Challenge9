@@ -32,15 +32,85 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        name: 'installation',
+        message: 'How is your project installed?',
+        validate: installationInput => {
+            if (installationInput) {
+                return true
+            } else {
+                console.log('Please enter Installation Information!')
+                return false
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'How is your project used?',
+        validate: usageInput => {
+            if (usageInput) {
+                return true
+            } else {
+                console.log('Please enter Usage!')
+                return false
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'license',
+        message: 'Please provide your license:',
+        validate: licenseInput => {
+            if (licenseInput) {
+                return true
+            } else {
+                console.log('Please enter License info!')
+                return false
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'contributors',
+        message: 'Who contributed to your project?',
+        validate: contributorsInput => {
+            if (contributorsInput) {
+                return true
+            } else {
+                console.log('Please enter Contributors!')
+                return false
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'test',
+        message: 'What testing was completed?',
+        validate: testInput => {
+            if (testInput) {
+                return true
+            } else {
+                console.log('Please enter Testing Info!')
+                return false
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'questions',
+        message: 'Do you have any additional questions?',
+        validate: questionsInput => {
+            if (questionsInput) {
+                return true
+            } else {
+                console.log('Please enter any Question you may have.')
+                return false
+            }
+        }
+    },
 ];
-
-// const promptUser = portfolioData => {
-//     if(!portfolioData) {
-//         portfolioData = []
-//     }
-//     inquirer.prompt(questions)
-//     .then(inquirer)
-// }
 
 // TODO: Create a function to write README file
 
