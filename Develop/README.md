@@ -1,5 +1,5 @@
-[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-  # fds
+[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  # readme
   ## Table of Contents
   - ### [Description](#Description)
   - ### [Installation](#Installation)
@@ -9,16 +9,21 @@
   - ### [Test](#Test)
   - ### [Questions](#Question)
   ## Description
-  fds
+  it works?
   ## Installation
-  fdsa
+  computer
   ## Usage
-  fds
+  computer
   ## Contributors
-  gfd
+  me
   ## Test
-  fsda
+  no
   ## Questions
-  gfsd
+  no
   ## License
-  undefined
+  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  ## E-mail
+  Contact: christenson10@gmail.com
+  ## Github
+  Created by: christenson10
+  

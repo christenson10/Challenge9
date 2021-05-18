@@ -62,7 +62,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please provide your license:',
-        choices: ['Apache 2.0', 'Boost'],
+        choices: ['Apache 2.0', 'Boost', 'BSD'],
         validate: licenseInput => {
             if (licenseInput) {
                 return true
@@ -111,10 +111,35 @@ const questions = [
             }
         }
     },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please enter your e-mail',
+        validate: questionsInput => {
+            if (questionsInput) {
+                return true
+            } else {
+                console.log('Please enter your e-mail.')
+                return false
+            }
+        }
+    },
+    {
+        type: 'input',
+        name: 'github',
+        message: 'Please enter your Github username.',
+        validate: questionsInput => {
+            if (questionsInput) {
+                return true
+            } else {
+                console.log('Please enter your Github information.')
+                return false
+            }
+        }
+    },
 ];
 
 // TODO: Create a function to write README file
-
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
