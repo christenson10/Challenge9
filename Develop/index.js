@@ -59,9 +59,10 @@ const questions = [
         }
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
         message: 'Please provide your license:',
+        choices: ['Apache 2.0', 'Boost'],
         validate: licenseInput => {
             if (licenseInput) {
                 return true
