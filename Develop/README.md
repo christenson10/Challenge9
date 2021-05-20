@@ -1,5 +1,5 @@
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
-  # readme
+[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  # Read Me Challenge
   ## Table of Contents
   - ### [Description](#Description)
   - ### [Installation](#Installation)
@@ -9,21 +9,21 @@
   - ### [Test](#Test)
   - ### [Questions](#Question)
   ## Description
-  it works?
+  We created a Read Me using Node.js
   ## Installation
-  computer
+  Javascript and Node
   ## Usage
-  computer
+  With computers
   ## Contributors
-  me
+  Myself, tutor, and class lessons
   ## Test
-  no
+  Plenty
   ## Questions
-  no
+  No
   ## License
-  [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+  Boost
   ## E-mail
   Contact: christenson10@gmail.com
   ## Github
-  Created by: christenson10
+  Created by: [christenson10](https://github.com/christenson10)
   

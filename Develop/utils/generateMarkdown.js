@@ -82,11 +82,11 @@ function generateMarkdown(data) {
   ## Questions
   ${data.questions}
   ## License
-  ${renderLicenseSection(data.license)}
+  ${data.license}
   ## E-mail
   Contact: ${data.email}
   ## Github
-  Created by: ${data.github}
+  Created by: [${data.github}](https://github.com/${data.github})
   `
 };
 
