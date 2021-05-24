@@ -1,5 +1,5 @@
 [![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
-  # Read Me Challenge
+  # Read Me Generator
   ## Table of Contents
   - ### [Description](#Description)
   - ### [Installation](#Installation)
@@ -9,15 +9,15 @@
   - ### [Test](#Test)
   - ### [Questions](#Question)
   ## Description
-  We created a Read Me using Node.js
+  It creates a Read Me from the command line
   ## Installation
-  Javascript and Node
+  VS Code
   ## Usage
-  With computers
+  To create Read Me
   ## Contributors
-  Myself, tutor, and class lessons
+  Me and my tutor
   ## Test
-  Plenty
+  Yes
   ## Questions
   No
   ## License
